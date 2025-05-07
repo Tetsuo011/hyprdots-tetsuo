@@ -1,0 +1,278 @@
+PREINSTALACION
+- Instalar windows 10 ltsc
+- Hacer dualboot apoyandose en este video 
+(https://www.youtube.com/watch?v=mWl4P6DOt9M&list=PLRJwX9A-qpncJWL4UNUmdlwOXYlh2laCt&index=6)
+- Instalacion minima de arch luego ejecutar el instalador de Jakoolti apoyarse en:
+(https://www.youtube.com/watch?v=lR7EtbVYWuc&list=PLRJwX9A-qpncJWL4UNUmdlwOXYlh2laCt&index=8)
+
+- En windows establecer la misma zona horaria que en arch
+- Abrir powershell como administrador y pegar
+New-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Control\TimeZoneInformation" -Name "RealTimeIsUniversal" -PropertyType DWord -Value 1 -Force
+
+POST INSTALACION DE ARCH LINUX HYPRLAND CON DOTS DE JAKOOLIT
+
+- CONECTARSE A WIFI POR TERMINAL
+1.Ejecutar pacman -Qs networkmanager si no esta instalado sudo pacman -S networkmanager
+2.Arrancar el servicio sudo systemctl enable NetworkManager
+3.Iniciar el servicio sudo systemctl start NetworkManager
+4. Verificar si funciona systemctl status NetworkManager
+5. Para conectar x wifi ejecuta nmtui, luego Ve a "Activate a connection", selecciona tu red Wi-Fi y conéctate ingresando la contraseña.
+6. para q network manager se ejecute al iniciar ejecuta (nano ~/.config/hypr/hyprland.conf o nano ~/.config/hyprland/hyprland.conf)
+y añade exec-once = nm-applet &
+
+- PERMISO DE DISCOS
+(ctrl+shift+e seleccionar startup apps) añadir: 
+#disk 
+exec-once = /usr/lib/hyprpolkitagent
+
+- AÑADIR DISCO AL ARRANQUE Y CAMBIAR CARPETAS PREDETERMINADAS DE USUARIO
+(https://chatgpt.com/c/67cf3164-0744-8005-b498-b737baabef4c)
+
+ESCENCIALES
+
+- Instalar base-devel y linux-headers
+sudo pacman -S base-devel linux-headers
+
+- Instalar git por si no se instalo en el script de Jakoolit
+sudo pacman -S git
+
+- Instalar AUR (yay) por si no se instalo en el script de Jakoolit
+sudo pacman -S --needed base-devel git
+git clone https://aur.archlinux.org/yay.git 
+cd yay
+makepkg -si
+
+- Instalar flatpak por si no se instalo en el script de Jakoolit
+sudo pacman -S flatpak
+
+- Instalar neofetch
+sudo pacman -S neofetch
+
+- Instalar soporte para ntfs
+sudo pacman -S ntfs-3g
+
+DRIVERS (https://wiki.archlinux.org/title/Intel_graphics)
+
+-Drivers intel
+sudo pacman -S intel-ucode
+sudo pacman -S vulkan-intel lib32-vulkan-intel vulkan-tools mesa lib32-mesa
+sudo pacman -S intel-media-driver libva-utils vdpauinfo clinfo
+sudo pacman -S opencl-mesa lib32-opencl-mesa
+sudo pacman -S libva-mesa-driver mesa-vdpau opencl-mesa vulkan-mesa-layers mesa-demos vulkantools vulkan-intel
+sudo pacman -S lib32-libva-mesa-driver lib32-mesa-vdpau lib32-opencl-mesa lib32-vulkan-intel lib32-
+vulkan-mesa-layers lib32-mesa-demos
+
+-Mirar version de mesa instalada
+glxinfo | grep "OpenGL version"
+
+-Iniciar modulo i915 al iniciar el kernel
+sudo nano /etc7mkinitcpio.conf
+MODULES=(i915)
+
+UTILIDADES BASICAS
+
+sudo pacman -S htop vim git wget curl
+
+SOPORTE PARA ARCHIVOS COMPRIMIDOS Y FORMATOS ESPECIALES
+
+sudo pacman -S unrar p7zip zip unzip tar
+
+SOPORTE PARA FUENTES E IDIOMAS
+
+sudo pacman -S noto-fonts noto-fonts-cjk noto-fonts-emoji ttf-dejavu
+
+INSTALAR TLP (ADMINISTRADOR DE ENERGIA)
+
+- Instalar TLP
+sudo pacman -S tlp tlp-rdw
+
+- Para intel tambien instalar
+sudo pacman -S intel-ucode
+
+- Activar e iniciar TLP
+sudo systemctl enable tlp.service
+sudo systemctl start tlp.service
+
+- Configurar TLP para maximo rendimiento
+sudo nano /etc/tlp.conf
+
+-Adentro buscar y modificar (o descomentar y cambia) las sifueintes lineas
+# --- CPU ---
+CPU_SCALING_GOVERNOR_ON_AC=performance
+CPU_SCALING_GOVERNOR_ON_BAT=powersave
+
+CPU_BOOST_ON_AC=1
+CPU_BOOST_ON_BAT=0
+
+# --- PCIe ---
+PCIE_ASPM_ON_AC=performance
+PCIE_ASPM_ON_BAT=default
+
+# --- USB ---
+USB_AUTOSUSPEND=0
+USB_AUTOSUSPEND_DISABLE_ON_SHUTDOWN=1
+
+# --- Disco duro ---
+DISK_DEVICES="sda sdb nvme0n1"
+DISK_APM_LEVEL_ON_AC=254
+DISK_APM_LEVEL_ON_BAT=128
+DISK_IOSCHED="none"
+
+# --- WiFi ---
+WIFI_PWR_ON_AC=off
+WIFI_PWR_ON_BAT=on
+
+# --- Audio ---
+SOUND_POWER_SAVE_ON_AC=0
+SOUND_POWER_SAVE_ON_BAT=1
+
+# --- Radeon o AMD GPU ---
+RADEON_DPM_PERF_LEVEL_ON_AC=high
+RADEON_DPM_PERF_LEVEL_ON_BAT=auto
+
+# --- NVIDIA (opcional si tienes una dedicada y usas nouveau o nvidia) ---
+NVIDIA_POWER_MODE_ON_AC=performance
+NVIDIA_POWER_MODE_ON_BAT=auto
+
+# --- Battery charge thresholds (si tu laptop lo soporta) ---
+# START_CHARGE_THRESH_BAT0=40
+# STOP_CHARGE_THRESH_BAT0=80
+
+- Aplicar los cambios
+sudo tlp start
+
+- Verificar si funciona
+tlp-stat -s
+(ver estado completo: tlp-stat)
+
+- Deshabilitar por si hay otros demons corriendo
+sudo systemctl disable --now power-profiles-daemon
+sudo systemctl disable --now auto-cpufreq
+sudo systemctl disable --now thermald
+sudo systemctl disable --now cpupower
+sudo systemctl mask power-profiles-daemon.service
+sudo systemctl disable --now thermald cpupower auto-cpufreq
+
+JAVA (TLAUNCHER)
+
+sudo pacman -S jdk8-openjdk xorg-xrandr mesa
+
+- Crear ejecutable de tlauncher
+nano /home/tetsuo/Juegos/Minecraft/ejecutar_tlauncher.sh
+
+- Pegar adentro
+#!/bin/bash
+cd /home/tetsuo/Juegos/Minecraft
+env _JAVA_AWT_WM_NONREPARENTING=1 java -jar TLauncher.jar
+
+- Hazerlo ejecutable
+chmod +x /home/tetsuo/Juegos/Minecraft/ejecutar_tlauncher.sh
+
+-Crear acceso directo
+nano ~/.local/share/applications/tlauncher.desktop
+
+- Adentro pegar 
+[Desktop Entry]
+Name=TLauncher
+Exec=/home/tetsuo/Juegos/Minecraft/ejecutar_tlauncher.sh
+Icon=/home/tetsuo/Juegos/Minecraft/minlogo.png
+Type=Application
+Categories=Game;
+Terminal=false
+
+- Actualizar menu
+update-desktop-database ~/.local/share/applications/
+
+APLICACIONES 
+
+- Mousepad
+yay -S mousepad
+
+- Chrome
+yay -S google-chrome
+AÑADIR UBLOCK ORIGIN LA COPIA DE SEGURIDAD ESTA EN:
+(https://github.com/Tetsuo011/Copia-de-seguridad-ublock-origin)
+
+- Visual Studio Code
+yay -S visual-studio-code-bin
+
+- Obs Studio
+yay -S obs-studio
+
+- Only Office
+yay -S onlyoffice-bin
+
+- Monitor del sistema de Gnome
+sudo pacman -S gnome-system-monitor
+
+- Yazi file manager
+sudo pacman -S yazi 
+
+- Microsoft Teams
+Crear la aplicacion web en chrome
+
+- Whatsapp
+Crear la aplicacion web en chrome
+
+- Lollypop Music Player
+yay -S lollypop
+
+- Amberol Music Player
+yay -S amberol
+
+- Visor de imagenes de gnome
+sudo pacman -S loupe
+
+-Krita
+flatpak install flathub org.kde.krita
+
+JUEGOS
+
+-Roblox
+flatpak install flathub org.vinegarhq.Sober
+
+-Steam
+sudo pacman -S steam
+
+-Heroic games launcher
+flatpak install flathub com.heroicgameslauncher.hgl
+
+- Emulador PS1
+yay -S duckstation-qt-bin
+
+- Emulador NDS
+flatpak install flathub net.kuribo64.melonDS
+
+- Emulado GBA
+yay -S mgba
+
+INSTALAR PYWAL
+- Instalacion
+sudo pacman -S python-pywal
+
+- Configuracion
+nano -zhrc
+- Adentro pegar
+# Import colorscheme from 'wal' asynchronously
+# &   # Run the process in the background.
+# ( ) # Hide shell job control messages.
+# Not supported in the "fish" shell.
+(cat ~/.cache/wal/sequences &)
+
+# Alternative (blocks terminal for 0-3ms)
+cat ~/.cache/wal/sequences
+
+# To add support for TTYs this line can be optionally added.
+source ~/.cache/wal/colors-tty.sh
+
+APLICAR MI CONFIGURACION DE LOS DOTS DE JACKOOLIT
+- Ir a https://github.com/Tetsuo011/hyprdots-tetsuo
+- Copiar y pegar los archivos de configuracion
+
+MIS WALLPAPERS ESTAN EN (https://github.com/Tetsuo011/hyprdots-tetsuo)
+SI HAY PROBLEMAS DEL CURSOR ENTRE APLICACIONES IR A (https://chatgpt.com/c/67cf7493-7d68-8005-9132-1276882d93d7)
+SI SE REQUIERE OPTIMIZAR EL USO DE RAM (https://chatgpt.com/c/67cf670f-fc70-8005-b810-de175993ff43)
+
+
+
+
