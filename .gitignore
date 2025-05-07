@@ -1,0 +1,8 @@
+hypr/UserConfigs/Monitors.conf
+hypr/UserConfigs/WorkspaceRules.conf
+hypr/monitors.conf
+hypr/workspaces.conf
+*.swp
+*~
+.cache/
+*.bak
