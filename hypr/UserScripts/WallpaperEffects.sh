@@ -1,5 +1,5 @@
 #!/bin/bash
-# /* ---- 💫 https://github.com/JaKooLit 💫 ---- */  #
+# /* ---- 💫 Wallpaper Effects ---- */  #
 # Wallpaper Effects using ImageMagick (SUPER SHIFT W)
 
 # Variables

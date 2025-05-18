@@ -1,5 +1,5 @@
 #!/bin/bash
-# /* ---- 💫 https://github.com/JaKooLit 💫 ---- */  ##
+# /* ---- Portal Hyprland ---- */  ##
 # For manually starting xdg-desktop-portal-hyprland
 
 sleep 1

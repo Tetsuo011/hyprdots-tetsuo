@@ -1,5 +1,5 @@
 #!/bin/bash
-# /* ---- 💫 https://github.com/JaKooLit 💫 ---- */  ##
+# /* ---- Media Ctrl ---- */  ##
 # Playerctl
 
 music_icon="$HOME/.config/swaync/icons/music.png"

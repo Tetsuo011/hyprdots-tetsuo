@@ -1,5 +1,5 @@
 #!/bin/bash
-# /* ---- 💫 https://github.com/JaKooLit 💫 ---- */  ##
+# /* ---- Lockscreen ---- */  ##
 
 # For Hyprlock
 #pidof hyprlock || hyprlock -q 

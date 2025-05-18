@@ -1,4 +1,3 @@
-//* ---- 💫 https://github.com/JaKooLit 💫 ---- *//
 /* Waybar Modules - Custom Modules */
 /* Basically created to reduce the lines in Waybar Modules bank */
 /* NOTE: This is only for Custom Modules */
@@ -111,6 +110,12 @@
 	"on-click-right": "$HOME/.config/hypr/scripts/WaybarLayout.sh",
 	"tooltip": true,
 	"tooltip-format": "Left Click: Rofi Menu\nMiddle Click: Wallpaper Menu\nRight Click: Waybar Layout Menu",
+},
+
+"custom/arch": {
+      "format":" ",
+      "tooltip": false,
+      "on-click": "rofi -show drun"
 },
 // This is a custom cava visualizer
 "custom/cava_mviz": {

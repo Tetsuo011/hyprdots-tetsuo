@@ -1,5 +1,5 @@
 #!/bin/bash
-# /* ---- 💫 https://github.com/JaKooLit 💫 ---- */  ##
+# /* ---- Waybar Styles ---- */  ##
 # Script for waybar styles
 
 IFS=$'\n\t'

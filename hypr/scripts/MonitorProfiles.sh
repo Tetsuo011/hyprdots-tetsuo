@@ -1,5 +1,5 @@
 #!/bin/bash
-# /* ---- 💫 https://github.com/JaKooLit 💫 ---- */  ##
+# /* ---- Monitor Profiles ---- */  ##
 # For applying Pre-configured Monitor Profiles
 
 # Check if rofi is already running

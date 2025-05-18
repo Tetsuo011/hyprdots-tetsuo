@@ -1,5 +1,5 @@
 #!/bin/bash
-# /* ---- 💫 https://github.com/JaKooLit 💫 ---- */  ##
+# /* ---- ScreenShot ---- */  ##
 # Screenshots scripts
 
 # variables

@@ -1,5 +1,5 @@
 #!/bin/bash
-# /* ---- 💫 https://github.com/JaKooLit 💫 ---- */  ##
+# /* ---- Distro_Update ---- */  ##
 # Simple bash script to check and will try to update your system
 
 # Local Paths

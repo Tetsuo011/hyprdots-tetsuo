@@ -1,5 +1,5 @@
 #!/bin/bash
-# /* ---- 💫 https://github.com/JaKooLit 💫 ---- */  ##
+# /* ---- Animations ---- */  ##
 # For applying Animations from different users
 
 # Check if rofi is already running

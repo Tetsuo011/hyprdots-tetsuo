@@ -1,5 +1,3 @@
-/* ---- 💫 https://github.com/JaKooLit 💫 ---- */
-
 // ### TOP and LEFT PANEL ## //
 
 [{
@@ -76,10 +74,11 @@
     ],
     
 "modules-right": [
+	"custom/cava_mviz",
 	"mpris",
 	"group/notify",
-    "tray",
-    "custom/light_dark",
+    	"tray",
+    	"custom/light_dark",
     ],
     
 }]

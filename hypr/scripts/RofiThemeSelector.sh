@@ -1,5 +1,5 @@
 #!/bin/bash
-# /* ---- 💫 https://github.com/JaKooLit 💫 ---- */  ##
+# /* ---- Rofi Theme Selector ---- */  ##
 # Script for adding a selected theme to the Rofi config
 
 IFS=$'\n\t'

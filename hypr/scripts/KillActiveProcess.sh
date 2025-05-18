@@ -1,5 +1,5 @@
 #!/bin/bash
-# /* ---- 💫 https://github.com/JaKooLit 💫 ---- */  ##
+# /* ---- Kill Active Process ---- */  ##
 
 # Copied from Discord post. Thanks to @Zorg
 

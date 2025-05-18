@@ -1,5 +1,5 @@
 #!/bin/bash
-# /* ---- 💫 https://github.com/JaKooLit 💫 ---- */  ##
+# /* ---- Rainbow Bordes (HIGH CPU USAGE) ---- */  ##
 # for rainbow borders animation
 
 function random_hex() {
