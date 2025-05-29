@@ -1,0 +1,110 @@
+// ### DUAL TOP and BOTTOM ### //
+
+[{
+"include": [
+  "$HOME/.config/waybar/Modules",
+  "$HOME/.config/waybar/ModulesWorkspaces",
+  "$HOME/.config/waybar/ModulesCustom",
+  "$HOME/.config/waybar/ModulesGroups",
+  "$HOME/.config/waybar/UserModules",
+  ],
+"layer": "top",
+//"mode": "dock",
+"exclusive": true,
+"passthrough": false,
+"position": "top",
+"spacing": 3,
+"fixed-center": true,
+"ipc": true,
+"margin-top": 1,
+"margin-left": 8,
+"margin-right": 8,
+
+"modules-left": [
+	"cpu", 
+	"temperature", 
+	"memory",
+	"disk", 
+	],
+  
+"modules-center": [
+	"idle_inhibitor",
+<<<<<<< HEAD
+	"clock",  
+	"custom/light_dark",
+=======
+	"clock",
+	"custom/cava_mviz",
+>>>>>>> 675d4511b (feat: Cambios en menús neovim y swaync)
+	], 
+
+"modules-right": [
+	"custom/weather",	  
+	"battery", 
+	"backlight",
+<<<<<<< HEAD
+	"bluetooth",
+	"network",
+	"custom/updater",
+=======
+	"group/connections",
+>>>>>>> 675d4511b (feat: Cambios en menús neovim y swaync)
+	"custom/cycle_wall",
+	"custom/lock", 
+	],
+},
+
+{
+"include": [
+  "$HOME/.config/waybar/Modules",
+  "$HOME/.config/waybar/ModulesWorkspaces",
+  "$HOME/.config/waybar/ModulesCustom",
+  "$HOME/.config/waybar/ModulesGroups",
+  "$HOME/.config/waybar/UserModules",
+  ],
+"layer": "top",
+//"mode": "dock",
+"exclusive": true,
+"passthrough": false,
+"position": "bottom",
+"spacing": 5,
+"fixed-center": true,
+"ipc": true,
+"height": 0,
+"margin-left": 8,
+"margin-right": 8,
+//"gtk-layer-shell": true,
+//"margin-bottom": 0,
+
+"modules-left": [
+<<<<<<< HEAD
+	"custom/menu",  
+=======
+	"custom/arch",  
+>>>>>>> 675d4511b (feat: Cambios en menús neovim y swaync)
+	"wlr/taskbar",
+	 ],
+
+"modules-center": [
+<<<<<<< HEAD
+	"hyprland/workspaces#rw", 
+=======
+	"hyprland/workspaces#pacman", 
+>>>>>>> 675d4511b (feat: Cambios en menús neovim y swaync)
+	],
+
+"modules-right": [
+	"hyprland/window",
+	"tray",
+	"group/notify",
+	"mpris",
+<<<<<<< HEAD
+	"keyboard-state",
+=======
+>>>>>>> 675d4511b (feat: Cambios en menús neovim y swaync)
+	"pulseaudio",
+	//"wireplumber", 
+	"pulseaudio#microphone",	  
+	"custom/power",
+	],  
+}],

@@ -1,0 +1,94 @@
+  /* wallust template - colors-rofi */
+
+* {
+<<<<<<< HEAD
+active-background: #C8A793;
+active-foreground: #EBE4DA;
+normal-background: #3B2B2E;
+normal-foreground: #EBE4DA;
+urgent-background: #C6B195;
+urgent-foreground: #EBE4DA;
+
+alternate-active-background: #C99D91;
+alternate-active-foreground: #EBE4DA;
+alternate-normal-background: #3B2B2E;
+alternate-normal-foreground: #EBE4DA;
+alternate-urgent-background: #3B2B2E;
+alternate-urgent-foreground: #EBE4DA;
+
+selected-active-background: #C6B195;
+selected-active-foreground: #EBE4DA;
+selected-normal-background: #C6B195;
+selected-normal-foreground: #EBE4DA;
+selected-urgent-background: #C8A793;
+selected-urgent-foreground: #EBE4DA;
+
+background-color: #3B2B2E;
+background: rgba(0,0,0,0.7);
+foreground: #EBE4DA;
+border-color: #C8A793;
+
+color0: #524144;
+color1: #99666A;
+color2: #986E6B;
+color3: #97756D;
+color4: #967D6E;
+color5: #948570;
+color6: #958570;
+color7: #DAD0C2;
+color8: #999187;
+color9: #CC888D;
+color10: #CB928F;
+color11: #C99D91;
+color12: #C8A793;
+color13: #C6B195;
+color14: #C6B195;
+color15: #DAD0C2;
+=======
+active-background: #63635B;
+active-foreground: #E2E1DD;
+normal-background: #1C1D1C;
+normal-foreground: #E2E1DD;
+urgent-background: #9A978D;
+urgent-foreground: #E2E1DD;
+
+alternate-active-background: #636154;
+alternate-active-foreground: #E2E1DD;
+alternate-normal-background: #1C1D1C;
+alternate-normal-foreground: #E2E1DD;
+alternate-urgent-background: #1C1D1C;
+alternate-urgent-foreground: #E2E1DD;
+
+selected-active-background: #9A978D;
+selected-active-foreground: #E2E1DD;
+selected-normal-background: #9A978D;
+selected-normal-foreground: #E2E1DD;
+selected-urgent-background: #63635B;
+selected-urgent-foreground: #E2E1DD;
+
+background-color: #1C1D1C;
+background: rgba(0,0,0,0.7);
+foreground: #E2E1DD;
+border-color: #63635B;
+
+color0: #424342;
+color1: #131612;
+color2: #1A1D18;
+color3: #4A493F;
+color4: #4A4A44;
+color5: #74716A;
+color6: #827E77;
+color7: #CDCBC6;
+color8: #908E8B;
+color9: #191E18;
+color10: #222720;
+color11: #636154;
+color12: #63635B;
+color13: #9A978D;
+color14: #ADA89E;
+color15: #CDCBC6;
+>>>>>>> 675d4511b (feat: Cambios en menús neovim y swaync)
+
+
+}
+

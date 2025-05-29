@@ -1,0 +1,7 @@
+[general]
+title = "Mi Biblioteca"
+music_directory = "/mnt/HDD/USUARIO/Música/Music"
+volume_step = 5
+cache_dir = "/home/tetsuo/.cache/rmpc"
+theme_file = "/home/tetsuo/.config/rmpc/theme.ron"
+
