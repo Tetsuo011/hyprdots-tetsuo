@@ -6,7 +6,7 @@
 ██║  ██║   ██║   ██║     ██║  ██║██████╔╝╚██████╔╝   ██║   ███████║
 ╚═╝  ╚═╝   ╚═╝   ╚═╝     ╚═╝  ╚═╝╚═════╝  ╚═════╝    ╚═╝   ╚══════╝
 
-                T E T S U O   -   D O T F I L E S                                        
+                 #T E T S U O   -   D O T F I L E S                                        
                                                                                     
 # hyprdots-tetsuo
 
@@ -140,5 +140,5 @@ sudo pacman -S pywal rmpc mpc neovim qutebrowser
 yay -S neofetch
 ```
 ### 🖼️coleccion de wallpapers
-https://github.com/Tetsuo011/wallpapers-backup/tree/main/Wallpapers
+(Aún no los subo)https://github.com/Tetsuo011/wallpapers-backup/tree/main/Wallpapers
 
