@@ -10,7 +10,7 @@
                                                                                                         
  # hyprdots-tetsuo
 
-**⚠️ Requiere instalar previamente la configuración base de [JaKooLit](https:https://github.com/JaKooLit/Arch-Hyprland)**
+**⚠️ Requiere instalar previamente la configuración base de [JaKooLit](https://github.com/JaKooLit/Arch-Hyprland)**
 
 Configuración personalizada de **Hyprland** basada en los dotfiles de JaKooLit, adaptada por **Tetsuo** para **Arch Linux**.
 
@@ -57,15 +57,15 @@ Configuración personalizada de **Hyprland** basada en los dotfiles de JaKooLit,
 
 ## 📸 Screenshots
 
-| Escritorio Principal | Escritorio Secundario |
+| Desktop | Desktop |
 |----------------------|------------------------|
 | ![desktop](screenshots/desktop.png) | ![desktop2](screenshots/desktop2.png) |
 
-| Rofi Launcher | Rofi Powermenu |
+| Rofi Launcher | Rofi Launcher |
 |---------------|----------------|
 | ![rofi1](screenshots/rofi1.png) | ![rofi2](screenshots/rofi2.png) |
 
-| Wlogout | Código (Neovim) |
+| Wlogout | Code (Neovim) |
 |---------|-----------------------------|
 | ![wlogout](screenshots/wlogout.png) | ![codess](screenshots/codess.png) |
 
@@ -102,22 +102,25 @@ Este setup depende de varias herramientas. Algunas vienen incluidas en la config
 - `wallust`
 
 ### Adicionales (debes instalarlas tú):
-```bash
 - `pywal`
 - `mpc`
 - `rmpc`
 - `neovim`
 - `qutebrowser`
-- `neofetch`i
+- `neofetch`
+---
 
-## 🙏 Créditos
+### 🙏 Créditos
 
-- [JaKooLit/hyprdots](https://github.com/JaKooLit/hyprdots) – Configuración base de donde partí para crear mi entorno.
-- [rxyhn](https://github.com/rxyhn) – Inspiración en estética minimalista y retro.
-- [eylles/wallust](https://github.com/eylles/wallust) – Herramienta clave para gestionar esquemas de colores basados en wallpapers.
-- [dylanaraps/pywal](https://github.com/dylanaraps/pywal) – Utilidad para generar colores automáticos desde imágenes.
+- [JaKooLit/hyprdots](https://github.com/JaKooLit/hyprdots)
+- [rxyhn](https://github.com/rxyhn)
+- [eylles/wallust](https://github.com/eylles/wallust)
+- [dylanaraps/pywal](https://github.com/dylanaraps/pywal)
 
+---
 
-sudo pacman -S pywal rmpc mpc neovim qutebrowser 
+```bash
+sudo pacman -S pywal rmpc mpc neovim qutebrowser
 yay -S neofetch
+
 
