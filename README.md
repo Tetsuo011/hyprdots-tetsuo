@@ -5,10 +5,10 @@
 ██╔══██║  ╚██╔╝  ██╔═══╝ ██╔══██╗██║  ██║██║   ██║   ██║   ╚════██║
 ██║  ██║   ██║   ██║     ██║  ██║██████╔╝╚██████╔╝   ██║   ███████║
 ╚═╝  ╚═╝   ╚═╝   ╚═╝     ╚═╝  ╚═╝╚═════╝  ╚═════╝    ╚═╝   ╚══════╝
-                 T E T S U O   -   D O T F I L E S                                        
-                                                                                                        
-                                                                                                        
- # hyprdots-tetsuo
+
+                T E T S U O   -   D O T F I L E S                                        
+                                                                                    
+# hyprdots-tetsuo
 
 **⚠️ Requiere instalar previamente la configuración base de [JaKooLit](https://github.com/JaKooLit/Arch-Hyprland)**
 
@@ -119,8 +119,26 @@ Este setup depende de varias herramientas. Algunas vienen incluidas en la config
 
 ---
 
+### ⚙️Paquetes escenciales
+```bash
+sudo pacman -S base-devel linux-headers git flatpak neofetch ntfs-3g
+```
+# 🔌 Instalar Vim-Plug para Neovim
+```bash
+sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+```
+### 🧰Utilidades básicas
+```bash
+sudo pacman -S htop vim wget curl
+sudo pacman -S unrar p7zip zip unzip tar
+sudo pacman -S noto-fonts noto-fonts-cjk noto-fonts-emoji ttf-dejavu
+```
+### 🧪Paquetes para mis dotfiles
 ```bash
 sudo pacman -S pywal rmpc mpc neovim qutebrowser
 yay -S neofetch
-
+```
+### 🖼️coleccion de wallpapers
+https://github.com/Tetsuo011/wallpapers-backup/tree/main/Wallpapers
 
