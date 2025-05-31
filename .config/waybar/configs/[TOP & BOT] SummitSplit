@@ -29,26 +29,15 @@
   
 "modules-center": [
 	"idle_inhibitor",
-<<<<<<< HEAD
-	"clock",  
-	"custom/light_dark",
-=======
 	"clock",
 	"custom/cava_mviz",
->>>>>>> 675d4511b (feat: Cambios en menús neovim y swaync)
 	], 
 
 "modules-right": [
 	"custom/weather",	  
 	"battery", 
 	"backlight",
-<<<<<<< HEAD
-	"bluetooth",
-	"network",
-	"custom/updater",
-=======
 	"group/connections",
->>>>>>> 675d4511b (feat: Cambios en menús neovim y swaync)
 	"custom/cycle_wall",
 	"custom/lock", 
 	],
@@ -77,20 +66,12 @@
 //"margin-bottom": 0,
 
 "modules-left": [
-<<<<<<< HEAD
-	"custom/menu",  
-=======
 	"custom/arch",  
->>>>>>> 675d4511b (feat: Cambios en menús neovim y swaync)
 	"wlr/taskbar",
 	 ],
 
 "modules-center": [
-<<<<<<< HEAD
-	"hyprland/workspaces#rw", 
-=======
 	"hyprland/workspaces#pacman", 
->>>>>>> 675d4511b (feat: Cambios en menús neovim y swaync)
 	],
 
 "modules-right": [
@@ -98,10 +79,6 @@
 	"tray",
 	"group/notify",
 	"mpris",
-<<<<<<< HEAD
-	"keyboard-state",
-=======
->>>>>>> 675d4511b (feat: Cambios en menús neovim y swaync)
 	"pulseaudio",
 	//"wireplumber", 
 	"pulseaudio#microphone",	  

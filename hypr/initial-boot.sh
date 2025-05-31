@@ -1,9 +1,5 @@
 #!/bin/bash
-<<<<<<< HEAD
-# /* ---- 💫 https://github.com/JaKooLit 💫 ---- */  #
-=======
 # /* ---- Startup Config File ---- */  #
->>>>>>> 675d4511b (feat: Cambios en menús neovim y swaync)
 # A bash script designed to run only once dotfiles installed
 
 # THIS SCRIPT CAN BE DELETED ONCE SUCCESSFULLY BOOTED!! And also, edit ~/.config/hypr/configs/Settings.conf

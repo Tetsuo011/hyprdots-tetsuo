@@ -9,11 +9,7 @@ waybar_styles="$HOME/.config/waybar/style"
 waybar_style="$HOME/.config/waybar/style.css"
 SCRIPTSDIR="$HOME/.config/hypr/scripts"
 rofi_config="$HOME/.config/rofi/config-waybar-style.rasi"
-<<<<<<< HEAD
-msg=' 🎌 NOTE: Some waybar STYLES NOT fully compatible with some LAYOUTS'
-=======
 #msg=' 🎌 NOTE: Some waybar STYLES NOT fully compatible with some LAYOUTS'
->>>>>>> 675d4511b (feat: Cambios en menús neovim y swaync)
 
 # Function to display menu options
 menu() {

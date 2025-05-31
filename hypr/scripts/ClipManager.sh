@@ -4,11 +4,7 @@
 
 # Variables
 rofi_theme="$HOME/.config/rofi/config-clipboard.rasi"
-<<<<<<< HEAD
-msg='👀 **note**  CTRL DEL = cliphist del (entry)   or   ALT DEL - cliphist wipe (all)'
-=======
 msg='**note**  CTRL DEL = cliphist del (entry)   or   ALT DEL - cliphist wipe (all)'
->>>>>>> 675d4511b (feat: Cambios en menús neovim y swaync)
 # Actions:
 # CTRL Del to delete an entry
 # ALT Del to wipe clipboard contents

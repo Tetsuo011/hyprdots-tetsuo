@@ -65,10 +65,7 @@ entry {
 }
 
 prompt {
-<<<<<<< HEAD
-=======
     text: "Buscar:";
->>>>>>> 675d4511b (feat: Cambios en menús neovim y swaync)
     margin: 0px 5px 0px 0px;
 }
 

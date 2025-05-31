@@ -25,11 +25,7 @@
 	"interval": 2,
 	"align": 0,
 	"rotate": 0,
-<<<<<<< HEAD
-	//"format": "{icon} {percent}%",
-=======
 	//"format": "{icon} {}%",
->>>>>>> 675d4511b (feat: Cambios en menús neovim y swaync)
 	"format-icons": [
 		" ",
 		" ",
@@ -210,13 +206,8 @@
 	"tooltip-format-deactivated": "Idle_inhibitor not active",
 	"format": "{icon}",
 	"format-icons": {
-<<<<<<< HEAD
-		"activated": " ",
-		"deactivated": " ",
-=======
 		"activated": "  ",
 		"deactivated": "  ",
->>>>>>> 675d4511b (feat: Cambios en menús neovim y swaync)
 	}
 },
 
@@ -234,15 +225,9 @@
 },
 
 "memory": {
-<<<<<<< HEAD
-	"interval": 10,
-	"format": "{used:0.1f}G 󰾆",
-	"format-alt": "{percentage}% 󰾆",
-=======
 	"interval": 5,
 	"format": "{}% ",
 	/*"format-alt": "{used:0.1f}G 󰾆",*/
->>>>>>> 675d4511b (feat: Cambios en menús neovim y swaync)
 	"format-alt-click": "click",
 	"tooltip": true,
 	"tooltip-format": "{used:0.1f}GB/{total:0.1f}G",
@@ -263,16 +248,6 @@
 	"tooltip": true,
 	"tooltip-format": "{status_icon} {dynamic}\nLeft Click: previous\nMid Click: Pause\nRight Click: Next",
 	"player-icons": {
-<<<<<<< HEAD
-		"chromium": "",
-		"default": "",
-		"firefox": "",
-		"kdeconnect": "",
-		"mopidy": "",
-		"mpv": "󰐹",
-		"spotify": "",
-		"vlc": "󰕼",
-=======
 		"chromium": " ",
 		"default": " ",
 		"firefox": " ",
@@ -281,7 +256,6 @@
 		"mpv": " 󰐹",
 		"spotify": " ",
 		"vlc": " 󰕼",
->>>>>>> 675d4511b (feat: Cambios en menús neovim y swaync)
 	},
 	"status-icons": {
 		"paused": "󰐎",
@@ -294,11 +268,7 @@
 
 "network": {
 	"format": "{ifname}",
-<<<<<<< HEAD
-	"format-wifi": "{icon}",
-=======
 	"format-wifi": " ", 
->>>>>>> 675d4511b (feat: Cambios en menús neovim y swaync)
 	"format-ethernet": "󰌘",
 	"format-disconnected": "󰌙",
 	"tooltip-format": "{ipaddr}  {bandwidthUpBits}  {bandwidthDownBits}",

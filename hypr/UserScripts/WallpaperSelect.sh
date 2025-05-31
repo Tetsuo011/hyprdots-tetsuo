@@ -100,11 +100,7 @@ menu() {
 
 # Offer SDDM Sequioa Wallpaper Option (only for non-video wallpapers)
 set_sddm_wallpaper() {
-<<<<<<< HEAD
-  sleep 1
-=======
   sleep 0.5
->>>>>>> 675d4511b (feat: Cambios en menús neovim y swaync)
   sddm_sequoia="/usr/share/sddm/themes/sequoia_2"
 
   if [ -d "$sddm_sequoia" ]; then
@@ -117,11 +113,7 @@ set_sddm_wallpaper() {
     if yad --info --text="Set current wallpaper as SDDM background?\n\nNOTE: This only applies to SEQUOIA SDDM Theme" \
       --text-align=left \
       --title="SDDM Background" \
-<<<<<<< HEAD
-      --timeout=5 \
-=======
       --timeout=4 \
->>>>>>> 675d4511b (feat: Cambios en menús neovim y swaync)
       --timeout-indicator=right \
       --button="yes:0" \
       --button="no:1"; then
@@ -177,6 +169,10 @@ apply_image_wallpaper() {
   fi
 
   swww img -o "$focused_monitor" "$image_path" $SWWW_PARAMS
+
+# --- Apply Pywal ---
+  echo "Generando paleta de colores con Pywal para la terminal..."
+  wal -i "$image_path" -n 
 
   # Run additional scripts
   "$SCRIPTSDIR/WallustSwww.sh"

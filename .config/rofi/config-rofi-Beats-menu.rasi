@@ -13,11 +13,7 @@ entry {
   expand: false;
   width: 25%;
   width: 25%;
-<<<<<<< HEAD
-  placeholder: " 📻 Choose Music Source";
-=======
   placeholder: "  Choose Music Source";
->>>>>>> 675d4511b (feat: Cambios en menús neovim y swaync)
   horizontal-align: 0.5;
   horizontal-align: 0.5;
 }

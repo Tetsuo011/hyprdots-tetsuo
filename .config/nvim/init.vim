@@ -15,9 +15,6 @@ syntax enable
 call plug#begin()
 	Plug 'RedsXDD/neopywal.nvim'
 	Plug 'nvim-lualine/lualine.nvim'
-<<<<<<< HEAD
-	Plug 'nvim-tree/nvim-web-devicons'
-=======
 	Plug 'windwp/nvim-autopairs'
 	Plug 'nvim-tree/nvim-tree.lua'
 	Plug 'nvim-tree/nvim-web-devicons' " Para íconos
@@ -25,7 +22,6 @@ call plug#begin()
 	Plug 'nvim-lua/plenary.nvim'            " Dependencia necesaria para Telescope
 	Plug 'nvim-telescope/telescope.nvim', {'tag': '0.1.2'}
 	Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
->>>>>>> 675d4511b (feat: Cambios en menús neovim y swaync)
 call plug#end()
 
 " =============================
@@ -44,8 +40,6 @@ END
 " =============================
 colorscheme neopywal
 
-<<<<<<< HEAD
-=======
 " =============================
 " Configuración nvim-autopairs
 " =============================
@@ -122,5 +116,4 @@ require'nvim-treesitter.configs'.setup {
 }
 EOF
 
->>>>>>> 675d4511b (feat: Cambios en menús neovim y swaync)
 

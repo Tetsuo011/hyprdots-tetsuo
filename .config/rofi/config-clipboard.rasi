@@ -17,11 +17,7 @@ mainbox {
 /* ---- Entry ---- */
 entry {
   width: inherit;
-<<<<<<< HEAD
-  placeholder: " 📋 Search  Clipboard ";
-=======
   placeholder: "   Search  Clipboard ";
->>>>>>> 675d4511b (feat: Cambios en menús neovim y swaync)
 }
 
 /* ---- Listview ---- */

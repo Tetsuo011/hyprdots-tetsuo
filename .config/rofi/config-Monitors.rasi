@@ -17,11 +17,7 @@ window {
 /* ---- Entry ---- */ 
 entry {
   width: 43%;
-<<<<<<< HEAD
-  placeholder: " 💻 Search / Choose which Monitor Profiles to load";
-=======
   placeholder: "  Search / Choose which Monitor Profiles to load";
->>>>>>> 675d4511b (feat: Cambios en menús neovim y swaync)
   horizontal-align: 0.5;
 }
 

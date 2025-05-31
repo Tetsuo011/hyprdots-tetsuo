@@ -17,11 +17,7 @@ mainbox {
 /* ---- Entry input ---- */
 entry {
   expand: true;
-<<<<<<< HEAD
-  placeholder: " ⬇️  Select Which Rofi Theme wanted to apply";
-=======
   placeholder: "   Select Which Rofi Theme wanted to apply";
->>>>>>> 675d4511b (feat: Cambios en menús neovim y swaync)
 }
 
 /* ---- Listview ---- */

@@ -21,11 +21,7 @@ window {
 /* ---- Entry ---- */ 
 entry {
   expand: true;
-<<<<<<< HEAD
-  placeholder: " 🖼️  Search / Choose Waybar Style";
-=======
   placeholder: "   Search / Choose Waybar Style";
->>>>>>> 675d4511b (feat: Cambios en menús neovim y swaync)
 }
 
 /* ---- Listview ---- */

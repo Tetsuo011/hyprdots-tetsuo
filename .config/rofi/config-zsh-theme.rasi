@@ -31,11 +31,7 @@ inputbar {
 
 entry {
   expand: true;
-<<<<<<< HEAD
-  placeholder: " 🪟  Search / Choose ZSH theme";
-=======
   placeholder: "   Search / Choose ZSH theme";
->>>>>>> 675d4511b (feat: Cambios en menús neovim y swaync)
 }
 
 /* ---- Listview ---- */

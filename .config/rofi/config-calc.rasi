@@ -18,11 +18,7 @@ window {
 /* ---- Entry ---- */
 entry {
   expand: true;
-<<<<<<< HEAD
-  placeholder: " 🧮 Calculate";
-=======
   placeholder: "  Calculate";
->>>>>>> 675d4511b (feat: Cambios en menús neovim y swaync)
 }
 
 listview {enable: false;}

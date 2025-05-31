@@ -12,11 +12,7 @@ mainbox {
 /* ---- Entry ---- */
 entry {
   expand: true;
-<<<<<<< HEAD
-  placeholder: " 🧮 Search Keybinds";
-=======
   placeholder: "  Search Keybinds";
->>>>>>> 675d4511b (feat: Cambios en menús neovim y swaync)
 }
 
 /* ---- Listview ---- */

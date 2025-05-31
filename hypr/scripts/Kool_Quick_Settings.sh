@@ -1,9 +1,5 @@
 #!/bin/bash
-<<<<<<< HEAD
-# /* ---- 💫 https://github.com/JaKooLit 💫 ---- */  ##
-=======
 # /* ---- Menu Configs ---- */  ##
->>>>>>> 675d4511b (feat: Cambios en menús neovim y swaync)
 # Rofi menu for KooL Hyprland Quick Settings (SUPER SHIFT E)
 
 # Modify this config file for default terminal and EDITOR
@@ -18,11 +14,7 @@ source "$tmp_config_file"
 configs="$HOME/.config/hypr/configs"
 UserConfigs="$HOME/.config/hypr/UserConfigs"
 rofi_theme="$HOME/.config/rofi/config-edit.rasi"
-<<<<<<< HEAD
-msg=' ⁉️ Choose what to do ⁉️'
-=======
 #msg=' ¿ Choose what to do ?'
->>>>>>> 675d4511b (feat: Cambios en menús neovim y swaync)
 iDIR="$HOME/.config/swaync/images"
 scriptsDir="$HOME/.config/hypr/scripts"
 UserScripts="$HOME/.config/hypr/UserScripts"

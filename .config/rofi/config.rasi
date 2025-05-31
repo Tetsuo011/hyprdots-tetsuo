@@ -23,25 +23,13 @@
 
 
 
-<<<<<<< HEAD
-//@theme "~/.config/rofi/themes/Style-5.rasi"
-//@theme "~/.config/rofi/themes/[Wallust] Style 3.rasi"
-//@theme "~/.config/rofi/themes/KooL_style-3-Fullscreen-v2.rasi"
 //@theme "~/.config/rofi/themes/[Wallust] Simple.rasi"
-//@theme "~/.config/rofi/themes/[Wallust] Style 1.rasi"
 //@theme "~/.config/rofi/themes/[Wallust] Simple.rasi"
-//@theme "~/.config/rofi/themes/[Wallust] Twolines.rasi"
+//@theme "~/.config/rofi/themes/[Wallust] Simple.rasi"
+//@theme "~/.config/rofi/themes/[Wallust] Simple.rasi"
+//@theme "~/.config/rofi/themes/[Wallust] Simple.rasi"
+//@theme "~/.config/rofi/themes/[Wallust] Simple.rasi"
 //@theme "~/.config/rofi/themes/[Wallust] Simple.rasi"
 //@theme "~/.config/rofi/themes/[Normal] Launchpad.rasi"
-=======
-//@theme "~/.config/rofi/themes/[Wallust] Style 2.rasi"
-//@theme "~/.config/rofi/themes/[Wallust] Style 3.rasi"
-//@theme "~/.config/rofi/themes/[Wallust] Style 4.rasi"
-//@theme "~/.config/rofi/themes/[Wallust] Style 5.rasi"
-//@theme "~/.config/rofi/themes/[Wallust] Simple.rasi"
-//@theme "~/.config/rofi/themes/[Wallust] Simple.rasi"
-//@theme "~/.config/rofi/themes/[Wallust] Simple.rasi"
-//@theme "~/.config/rofi/themes/[Wallust] Simple.rasi"
-//@theme "~/.config/rofi/themes/[Wallust] Simple.rasi"
->>>>>>> 675d4511b (feat: Cambios en menús neovim y swaync)
+//@theme "~/.config/rofi/themes/[Wallust] Twolines.rasi"
 @theme "~/.config/rofi/themes/[Wallust] Simple.rasi"

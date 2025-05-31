@@ -24,13 +24,8 @@
 	"custom/separator#dot-line",
 	"power-profiles-daemon",
 	"group/mobo_drawer",
-<<<<<<< HEAD
-	"custom/separator#blank",
-	"group/laptop",
-=======
 	"group/laptop",
 	"mpris",
->>>>>>> 675d4511b (feat: Cambios en menús neovim y swaync)
 	],
 
 "modules-center": [
@@ -45,16 +40,9 @@
 	], 
 
 "modules-right": [
-<<<<<<< HEAD
-	"group/connections",
-	"custom/separator#line",
-	"tray",
-	"mpris", 
-=======
 	"hyprland/window",
 	"group/connections",
 	"custom/separator#line",
->>>>>>> 675d4511b (feat: Cambios en menús neovim y swaync)
 	"group/audio",
 	"custom/separator#line",
 	"custom/lock",
@@ -64,11 +52,7 @@
 
 // Additional / Edited Waybar Modules //
 "custom/arch": {
-<<<<<<< HEAD
-      "format":" ",
-=======
       "format":"  ",
->>>>>>> 675d4511b (feat: Cambios en menús neovim y swaync)
       "tooltip": false,
       "on-click": "rofi -show drun"
 },

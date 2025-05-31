@@ -17,11 +17,7 @@ window {
 /* ---- Entry ---- */
 entry {
   width: 37%;
-<<<<<<< HEAD
-  placeholder: " 💫 Search / Choose Emoji's";
-=======
   placeholder: "   Search / Choose Emoji's";
->>>>>>> 675d4511b (feat: Cambios en menús neovim y swaync)
   horizontal-align: 0.0;
 }
 

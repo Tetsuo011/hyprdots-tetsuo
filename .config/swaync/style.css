@@ -350,14 +350,6 @@
   border-radius: 0px;
 }
 
-<<<<<<< HEAD
-=======
-.control-center, .floating-notifications, .notification {
-    background: rgba(0, 0, 0, 0.3); /* transparencia ligera */
-    backdrop-filter: blur(12px); /* efecto de desenfoque */
-    -webkit-backdrop-filter: blur(12px); /* soporte para WebKit si aplica */
-    border: 0px solid rgba(255, 255, 255, 0.1); /* borde tenue */
-}
 
->>>>>>> 675d4511b (feat: Cambios en menús neovim y swaync)
+
 

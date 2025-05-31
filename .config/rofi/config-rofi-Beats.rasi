@@ -16,11 +16,7 @@ mainbox {
 
 /* ---- Entry ---- */ 
 entry {
-<<<<<<< HEAD
-  placeholder: "📻 Choose Media or Stations to play";
-=======
   placeholder: " Choose Media or Stations to play";
->>>>>>> 675d4511b (feat: Cambios en menús neovim y swaync)
 }
 
 /* ---- Listview ---- */

@@ -20,11 +20,7 @@ mainbox {
 
 entry {
   expand: true;
-<<<<<<< HEAD
-  placeholder: " 🎞️ Search / Choose Wallpaper";
-=======
   placeholder: "  Search / Choose Wallpaper";
->>>>>>> 675d4511b (feat: Cambios en menús neovim y swaync)
   horizontal-align: 0.5;
   horizontal-align: 0.5;
 }

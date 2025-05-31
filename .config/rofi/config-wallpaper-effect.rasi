@@ -12,11 +12,7 @@ mainbox {
 /* ---- Entry ---- */ 
 entry {
   width: 32%;
-<<<<<<< HEAD
-  placeholder: " 🏙️ Search / Choose desired wallpaper effect";
-=======
   placeholder: "  Search / Choose desired wallpaper effect";
->>>>>>> 675d4511b (feat: Cambios en menús neovim y swaync)
 }
 
 /* ---- Window ---- */
