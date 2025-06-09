@@ -1,7 +1,8 @@
-sw_volume: 74
+sw_volume: 54
 audio_device_state:1:Pulseaudio
-state: stop
-current: 2
+state: pause
+current: 30
+time: 127.449
 random: 1
 repeat: 0
 single: 0
@@ -37,4 +38,9 @@ playlist_begin
 23:Japanese Songs/Momoko Kikuchi/Momoko kikuchi Special Selection I/Momoko Kikuchi - Idol wo Sagase.flac
 24:Japanese Songs/Momoko Kikuchi/Momoko kikuchi Special Selection I/Momoko Kikuchi - Nile in Blue.flac
 25:Japanese Songs/Momoko Kikuchi/Momoko kikuchi Special Selection I/Momoko Kikuchi - Glass no Sougen.flac
+26:Japanese Songs/HI-FI Set/HI-FI Blend Pt.1/Hi-Fi Set - Sky Restaurant.flac
+27:Japanese Songs/Hiromi Iwasaki/Cinderella Honeymoon/Hiromi Iwasaki - シンデレラ ハネムーン.flac
+28:Japanese Songs/Hiromi Iwasaki/Cinderella Honeymoon/Hiromi Iwasaki - Nannansei no Kaze no Naka de.flac
+29:Japanese Songs/Mariya Takeuchi/Expressions/Mariya Takeuchi - Plastic Love.flac
+30:Japanese Songs/Yuki Saitou/Love/Yuki Saitou - Julia.flac
 playlist_end

@@ -1,0 +1,28 @@
+
+UiConfigFile(
+    layout: Split(
+        direction: Vertical,
+        panes: [
+            (
+                size: "4",
+                borders: "ALL",
+                pane: "Header",
+            ),
+            (
+                size: "3",
+                pane: "Tabs",
+            ),
+            (
+                size: "100%",
+                borders: "ALL",
+                pane: "TabContent",
+            ),
+            (
+                size: "3",
+                borders: "ALL",
+                pane: "ProgressBar",
+            ),
+        ],
+    ),
+)
+

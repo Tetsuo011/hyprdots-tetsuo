@@ -1,0 +1,74 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/PycharmProjects/PythonProject">
+          <value>
+            <RecentProjectMetaInfo frameTitle="PythonProject" projectWorkspaceId="2xT6mO9e7Yci8ugR63glTBKFRkB">
+              <option name="activationTimestamp" value="1748018626150" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PC-243.26053.29" />
+              <option name="buildTimestamp" value="1742483220000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="7" />
+              </option>
+              <frame x="1381" y="45" width="1890" height="1020" extendedState="6" />
+              <option name="productionCode" value="PC" />
+              <option name="projectOpenTimestamp" value="1747949875562" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documentos/Proyectos python/PythonProject/Variables">
+          <value>
+            <RecentProjectMetaInfo frameTitle="Variables – constantes.py" projectWorkspaceId="2xKKj1PlUOrq2k24kkQZAKqxUgN">
+              <option name="activationTimestamp" value="1748020443307" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PC-243.26053.29" />
+              <option name="buildTimestamp" value="1742483220000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="7" />
+              </option>
+              <frame x="1381" y="45" width="1890" height="1020" extendedState="6" />
+              <option name="productionCode" value="PC" />
+              <option name="projectOpenTimestamp" value="1748018628594" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/PycharmProjects/PythonProject1/cadenas">
+          <value>
+            <RecentProjectMetaInfo frameTitle="cadenas" projectWorkspaceId="2xVPocgDiPrDcMvDQnmI2nG0Jog">
+              <option name="activationTimestamp" value="1748988694258" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PC-251.25410.159" />
+              <option name="buildTimestamp" value="1747663500000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="8" />
+              </option>
+              <frame x="9" y="341" width="1348" height="730" extendedState="6" />
+              <option name="productionCode" value="PC" />
+              <option name="projectOpenTimestamp" value="1748988263057" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/PycharmProjects/PythonProject1/PythonProject/entrada_datos_consola">
+          <value>
+            <RecentProjectMetaInfo frameTitle="entrada_datos_consola – generador_nombre_usuario_estudiante.py" opened="true" projectWorkspaceId="2y14M9ligBMtkallZ4Ek5IK5rkI">
+              <option name="activationTimestamp" value="1749347795232" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PC-251.25410.159" />
+              <option name="buildTimestamp" value="1747663500000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="0" />
+              </option>
+              <frame x="1380" y="28" width="1848" height="1030" extendedState="6" />
+              <option name="productionCode" value="PC" />
+              <option name="projectOpenTimestamp" value="1748988695513" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastOpenedProject" value="$USER_HOME$/PycharmProjects/PythonProject1/PythonProject/entrada_datos_consola" />
+    <option name="lastProjectLocation" value="$USER_HOME$/PycharmProjects/PythonProject1/PythonProject" />
+  </component>
+</application>

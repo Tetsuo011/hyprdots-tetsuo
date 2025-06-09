@@ -1,5 +1,5 @@
 #!/bin/bash
-# /* ---- 💫 Zsh Change Theme ---- */  ##
+# /* ---- Zsh Change Theme ---- */  ##
 # Script for Oh my ZSH theme ( CTRL SHIFT O)
 
 # preview of theme can be view here: https://github.com/ohmyzsh/ohmyzsh/wiki/Themes

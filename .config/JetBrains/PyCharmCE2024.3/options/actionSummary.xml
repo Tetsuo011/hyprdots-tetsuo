@@ -1,0 +1,103 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="About">
+      <i c="1" l="1747950496037" />
+    </e>
+    <e n="EditCustomVmOptions">
+      <i c="1" l="1747949885423" />
+    </e>
+    <e n="EditorBackSpace">
+      <i c="679" l="1748109183928" />
+    </e>
+    <e n="EditorChooseLookupItem">
+      <i c="77" l="1748109194280" />
+    </e>
+    <e n="EditorCopy">
+      <i c="2" l="1748019606972" />
+    </e>
+    <e n="EditorDelete">
+      <i c="1" l="1748020569662" />
+    </e>
+    <e n="EditorDown">
+      <i c="93" l="1748108775233" />
+    </e>
+    <e n="EditorEnter">
+      <i c="135" l="1748109195896" />
+    </e>
+    <e n="EditorLeft">
+      <i c="258" l="1748108631713" />
+    </e>
+    <e n="EditorPaste">
+      <i c="4" l="1748107834148" />
+    </e>
+    <e n="EditorRight">
+      <i c="675" l="1748109195513" />
+    </e>
+    <e n="EditorTab">
+      <i c="3" l="1748020718912" />
+    </e>
+    <e n="EditorUp">
+      <i c="58" l="1748107571691" />
+    </e>
+    <e n="MoreRunToolbarActions">
+      <i c="2" l="1748147647651" />
+    </e>
+    <e n="NewDirectoryProject">
+      <i c="1" l="1748020434872" />
+    </e>
+    <e n="NewPythonFile">
+      <i c="10" l="1748109079435" />
+    </e>
+    <e n="OpenFile">
+      <i c="1" l="1748018593003" />
+    </e>
+    <e n="RedesignedRunConfigurationSelector">
+      <i c="3" l="1748147686320" />
+    </e>
+    <e n="RunClass">
+      <i c="48" l="1748109198278" />
+    </e>
+    <e n="SettingsEntryPoint">
+      <i c="1" l="1747950487136" />
+    </e>
+    <e n="ShowSettings">
+      <i c="3" l="1748147657172" />
+    </e>
+    <e n="com.intellij.execution.ui.RunToolbarPopupKt$createRunConfigurationWithInlines$2">
+      <i c="1" l="1748147689771" />
+    </e>
+    <e n="com.intellij.notification.NotificationAction$Simple">
+      <i c="1" l="1747949861562" />
+    </e>
+    <e n="com.intellij.openapi.editor.impl.EditorMarkupModelImpl$TrafficLightAction">
+      <i c="3" l="1748107664986" />
+    </e>
+    <e n="com.intellij.openapi.fileEditor.impl.tabActions.CloseTab">
+      <i c="9" l="1748147627688" />
+    </e>
+    <e n="com.intellij.openapi.ui.MasterDetailsComponent$MyActionGroupWrapper">
+      <i c="1" l="1748018923148" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.SquareAnActionButton">
+      <i c="5" l="1748147699288" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.customFrameDecorations.header.toolbar.MainMenuButton$ShowMenuAction">
+      <i c="8" l="1748147650551" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.welcomeScreen.ActionGroupPanelWrapper$6">
+      <i c="1" l="1747949868172" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.welcomeScreen.WelcomeScreenComponentFactory$4">
+      <i c="1" l="1747949863806" />
+    </e>
+    <e n="com.intellij.toolWindow.ShowMoreToolWindowsAction">
+      <i c="1" l="1748147633155" />
+    </e>
+    <e n="com.intellij.toolWindow.ToolWindowHeader$HideAction">
+      <i c="51" l="1748109204436" />
+    </e>
+    <e n="com.jetbrains.python.sdk.AddLocalInterpreterAction">
+      <i c="2" l="1748018923157" />
+    </e>
+  </component>
+</application>

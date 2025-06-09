@@ -1,0 +1,23 @@
+<application>
+  <component name="DimensionService">
+    <size key="GridCell.Tab.0.left.1366.0.1920.1080" width="837" height="297" />
+    <size key="GridCell.Tab.0.center.1366.0.1920.1080" width="837" height="297" />
+    <size key="GridCell.Tab.0.right.1366.0.1920.1080" width="837" height="297" />
+    <size key="GridCell.Tab.0.bottom.1366.0.1920.1080" width="837" height="297" />
+    <size key="GridCell.Tab.0.left.0.322.1366.768" width="838" height="643" />
+    <size key="GridCell.Tab.0.center.0.322.1366.768" width="838" height="643" />
+    <size key="GridCell.Tab.0.right.0.322.1366.768" width="838" height="643" />
+    <size key="GridCell.Tab.0.bottom.0.322.1366.768" width="838" height="643" />
+    <size key="GridCell.Tab.1.left.0.322.1366.768" width="838" height="643" />
+    <size key="GridCell.Tab.1.center.0.322.1366.768" width="838" height="643" />
+    <size key="GridCell.Tab.1.right.0.322.1366.768" width="838" height="643" />
+    <size key="GridCell.Tab.1.bottom.0.322.1366.768" width="838" height="643" />
+    <size key="GridCell.Tab.1.left.1366.0.1920.1080" width="687" height="297" />
+    <size key="GridCell.Tab.1.center.1366.0.1920.1080" width="687" height="297" />
+    <size key="GridCell.Tab.1.right.1366.0.1920.1080" width="687" height="297" />
+    <size key="GridCell.Tab.1.bottom.1366.0.1920.1080" width="687" height="297" />
+  </component>
+  <component name="WindowManager">
+    <frame x="1380" y="28" width="1848" height="1030" extendedState="6" />
+  </component>
+</application>
