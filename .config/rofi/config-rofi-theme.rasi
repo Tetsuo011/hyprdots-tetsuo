@@ -22,11 +22,11 @@ entry {
 
 /* ---- Listview ---- */
 listview {
-  columns: 2;
-  lines: 7;
+  columns: 1;
+  lines: 4;
   fixed-height: false;
   margin: 10px;
-  scrollbar: true;
+  scrollbar: false;
   spacing: 6px;
   cycle: true;
 }

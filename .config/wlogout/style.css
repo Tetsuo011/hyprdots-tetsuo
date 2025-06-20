@@ -3,11 +3,14 @@
 /* Importing wallust colors */
 @import '../../.config/waybar/wallust/colors-waybar.css';
 
+@define-color blur-back rgba(40, 40, 40, 0.6784313725);
+@define-color blur-back-alt rgba(40, 40, 40, 0.5784313725);
+
 window {
     font-size: 24pt;
     color: @foreground; /* text */
     /* Fondo de la ventana: Un color RGBA estilo Gruvbox con transparencia */
-    background-color: rgba(40, 40, 40, 0.8); /* Un gris oscuro (casi negro) con 80% de opacidad, como base Gruvbox */
+    background-color: @blur-back-alt; /* Un gris oscuro (casi negro) con 80% de opacidad, como base Gruvbox */
 }
 
 button {
@@ -15,7 +18,7 @@ button {
     background-position: center;
     background-size: 30%;
     /* Botones semi-transparentes: Un color base oscuro con transparencia */
-    background-color: rgba(40, 40, 40, 0.4); /* Un gris oscuro con 40% de opacidad para que se vea a través */
+    background-color: @blur-back-alt; /* Un gris oscuro con 40% de opacidad para que se vea a través */
     animation: gradient_f 10s ease-in infinite;
     transition: all 0.3s cubic-bezier(.55, 0.0, .28, 1.682), box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
     border-radius: 80px;
@@ -24,7 +27,7 @@ button {
 }
 
 button:focus {
-    background-size: 50%;
+    background-size: 30%;
 	border: 0px;
 	outline-style: none;
 
@@ -32,9 +35,9 @@ button:focus {
 
 button:hover {
     /* Al pasar el ratón, el botón es un poco menos transparente */
-    background-color: rgba(90, 90, 90, 0.6); /* Un gris un poco más claro con 60% de opacidad para el hover */
+    background-color: @blur-back-alt; 
     color: @color13; /* Mantener tu color original para el texto/icono al pasar el ratón */
-    background-size: 50%;
+    background-size: 20%;
     margin: 30px;
     border-radius: 80px;
     outline-style: none;

@@ -30,10 +30,10 @@
   "script-fail-notify": true,
   "widgets": [
       "dnd",
-      "buttons-grid",
+      /*"buttons-grid",*/
       "mpris",
-      "volume", 
-      "backlight",
+      /*"volume",*/ 
+      /*"backlight",*/
       "title",
       "notifications"
   ],
@@ -44,15 +44,15 @@
           "button-text": "Clear"
       },
       "dnd": {
-          "text": "Do Not Disturb"
+          "text": "Shut Up"
       },
       "label": {
           "max-lines": 1,
           "text": "Notification"
       },
       "mpris": {
-          "image-size": 10,
-          "image-radius": 0
+          "image-size": 76,
+          "image-radius": 10
       },
       "volume": {
           "label": "󰕾"

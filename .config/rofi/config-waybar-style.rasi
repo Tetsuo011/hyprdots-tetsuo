@@ -1,46 +1,66 @@
-/* Main Config (waybar style) */
+@import "~/.config/rofi/config.rasi"
 
-@import "~/.config/rofi/config.rasi" 
-
-/* ---- Mainbox ---- */
-mainbox {
-  children: [ "inputbar", "message", "listview"];
-}
-
-/* ---- Configuration ---- */
 configuration {
   modi: "drun";
+  transparency: "real";
 }
 
-/* ---- Window ---- */
 window {
   width: inherit;
   height: inherit;
+  transparency: "real";
+  background-color: rgba(20, 20, 20, 0.3);
+  border: 0px;
+  border-radius: 0px;
+  padding: 30px;
 }
 
-/* ---- Entry ---- */ 
+mainbox {
+  children: [ "inputbar", "listview" ];
+  spacing: 20px;
+  background-color: transparent;
+}
+
+inputbar {
+  background-color: rgba(0, 0, 0, 0.2);
+  text-color: #ffffff;
+  padding: 10px;
+  border-radius: 0px;
+  margin: 10px 0px;
+}
+
 entry {
   expand: true;
-  placeholder: "   Search / Choose Waybar Style";
+  placeholder: "  Choose Waybar Style";
+  text-color: #ffffff;
+  horizontal-align: 0.5;
 }
 
-/* ---- Listview ---- */
 listview {
-  columns: 2;
-  lines: 7;
+  columns: 1;
+  lines: 4;
   fixed-height: false;
   margin: 10px;
-  scrollbar: true;
+  scrollbar: false;
   spacing: 6px;
   cycle: true;
+  background-color: transparent;
 }
 
 /* ---- Elements ---- */
+element {
+  orientation: horizontal;
+  padding: 10px;
+  background-color: transparent;
+}
+
 element-icon {
   size: 0%;
 }
+
 element-text {
   horizontal-align: 0.0;
-  margin: 0px;
-  padding: 0px;
+  text-color: #ffffff;
+  font: "JetBrainsMono Nerd Font 10";
 }
+

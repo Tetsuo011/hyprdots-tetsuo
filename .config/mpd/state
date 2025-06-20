@@ -1,8 +1,7 @@
-sw_volume: 54
+sw_volume: 70
 audio_device_state:1:Pulseaudio
-state: pause
-current: 30
-time: 127.449
+state: stop
+current: 22
 random: 1
 repeat: 0
 single: 0
@@ -12,35 +11,27 @@ mixrampdb: 0
 mixrampdelay: -1
 lastloadedplaylist: 
 playlist_begin
-0:Japanese Songs/Momoko Kikuchi/ADVENTURE/Momoko Kikuchi - Overture.flac
-1:Japanese Songs/Momoko Kikuchi/ADVENTURE/Momoko Kikuchi - Adventure.flac
-2:Japanese Songs/Momoko Kikuchi/ADVENTURE/Momoko Kikuchi - Autumn Wind Story.flac
-3:Japanese Songs/Momoko Kikuchi/ADVENTURE/Momoko Kikuchi - Nami ni Naritai.flac
-4:Japanese Songs/Momoko Kikuchi/ADVENTURE/Momoko Kikuchi - Night Cruising.flac
-5:Japanese Songs/Momoko Kikuchi/ADVENTURE/Momoko Kikuchi - Ame no Realize.flac
-6:Japanese Songs/Momoko Kikuchi/ADVENTURE/Momoko Kikuchi - Akai Inazuma.flac
-7:Japanese Songs/Momoko Kikuchi/ADVENTURE/Momoko Kikuchi - Good Friend.flac
-8:Japanese Songs/Momoko Kikuchi/ADVENTURE/Momoko Kikuchi - Mystical Composer.flac
-9:Japanese Songs/Momoko Kikuchi/ADVENTURE/Momoko Kikuchi - Mystical Composer.flac
-10:Japanese Songs/Momoko Kikuchi/ADVENTURE/Momoko Kikuchi - Tomorrow.flac
-11:Japanese Songs/Momoko Kikuchi/Momoko kikuchi Special Selection I/Momoko Kikuchi - Seishun no Ijiwaru.flac
-12:Japanese Songs/Momoko Kikuchi/Momoko kikuchi Special Selection I/Momoko Kikuchi - SUMMER EYES.flac
-13:Japanese Songs/Momoko Kikuchi/Momoko kikuchi Special Selection I/Momoko Kikuchi - Yuki ni Kaita Love Letter.flac
-14:Japanese Songs/Momoko Kikuchi/Momoko kikuchi Special Selection I/Momoko Kikuchi - Sotsugyou.flac
-15:Japanese Songs/Momoko Kikuchi/Momoko kikuchi Special Selection I/Momoko Kikuchi - Boy no theme.flac
-16:Japanese Songs/Momoko Kikuchi/Momoko kikuchi Special Selection I/Momoko Kikuchi - I Will.flac
-17:Japanese Songs/Momoko Kikuchi/Momoko kikuchi Special Selection I/Momoko Kikuchi - Autumn Wind Story.flac
-18:Japanese Songs/Momoko Kikuchi/Momoko kikuchi Special Selection I/Momoko Kikuchi - Broken Sunset.flac
-19:Japanese Songs/Momoko Kikuchi/Momoko kikuchi Special Selection I/Momoko Kikuchi - EDEN OF GALAXY.flac
-20:Japanese Songs/Momoko Kikuchi/Momoko kikuchi Special Selection I/Momoko Kikuchi - Natsuiro Kataomoi.flac
-21:Japanese Songs/Momoko Kikuchi/Momoko kikuchi Special Selection I/Momoko Kikuchi - Say Yes!.flac
-22:Japanese Songs/Momoko Kikuchi/Momoko kikuchi Special Selection I/Momoko Kikuchi - Ivory Coast.flac
-23:Japanese Songs/Momoko Kikuchi/Momoko kikuchi Special Selection I/Momoko Kikuchi - Idol wo Sagase.flac
-24:Japanese Songs/Momoko Kikuchi/Momoko kikuchi Special Selection I/Momoko Kikuchi - Nile in Blue.flac
-25:Japanese Songs/Momoko Kikuchi/Momoko kikuchi Special Selection I/Momoko Kikuchi - Glass no Sougen.flac
-26:Japanese Songs/HI-FI Set/HI-FI Blend Pt.1/Hi-Fi Set - Sky Restaurant.flac
-27:Japanese Songs/Hiromi Iwasaki/Cinderella Honeymoon/Hiromi Iwasaki - シンデレラ ハネムーン.flac
-28:Japanese Songs/Hiromi Iwasaki/Cinderella Honeymoon/Hiromi Iwasaki - Nannansei no Kaze no Naka de.flac
-29:Japanese Songs/Mariya Takeuchi/Expressions/Mariya Takeuchi - Plastic Love.flac
-30:Japanese Songs/Yuki Saitou/Love/Yuki Saitou - Julia.flac
+0:Japanese Songs/Sick Hack/I'm the only a ghost/Sick Hack - I m the only ghost.flac
+1:Japanese Songs/kessoku band/If I could be a constellation/kessoku band - If I could be a constellation.flac
+2:Japanese Songs/kessoku band/Into the Light/kessoku band - Into the Light.flac
+3:Japanese Songs/kessoku band/Into the Light/kessoku band - Blue Spring and Western Sky.flac
+4:Japanese Songs/kessoku band/Kessoku Band/kessoku band - seisyun complex.flac
+5:Japanese Songs/kessoku band/Kessoku Band/kessoku band - hitoribocchi tokyo.flac
+6:Japanese Songs/kessoku band/Kessoku Band/kessoku band - Distortion!!.flac
+7:Japanese Songs/kessoku band/Kessoku Band/kessoku band - Secret base.flac
+8:Japanese Songs/kessoku band/Kessoku Band/kessoku band - Guitar, Loneliness and Blue Planet.flac
+9:Japanese Songs/kessoku band/Kessoku Band/kessoku band - I can't sing a love song.flac
+10:Japanese Songs/kessoku band/Kessoku Band/kessoku band - That band.flac
+11:Japanese Songs/kessoku band/Kessoku Band/kessoku band - Karakara.flac
+12:Japanese Songs/kessoku band/Kessoku Band/kessoku band - Flashbacker.flac
+13:Japanese Songs/kessoku band/ReKessoku Band/kessoku band - Shine as usual.flac
+14:Japanese Songs/kessoku band/ReKessoku Band/kessoku band - Now, I'm going from underground.flac
+15:Japanese Songs/kessoku band/ReKessoku Band/kessoku band - Doppelganger.flac
+16:Japanese Songs/kessoku band/ReKessoku Band/kessoku band - ReRe.flac
+17:Japanese Songs/kessoku band/Rockn' Roll, Morning Light Falls on You/kessoku band - Rockn' Roll, Morning Light Falls on You.flac
+18:Japanese Songs/kessoku band/We will/kessoku band - milky way.flac
+19:Japanese Songs/kessoku band/We will/kessoku band - Planet.flac
+20:Japanese Songs/kessoku band/We will/kessoku band - UNITE.flac
+21:Japanese Songs/kessoku band/We will/kessoku band - Bundle up your dreams.flac
+22:Japanese Songs/Yuki Saitou/Love/Yuki Saitou - Julia.flac
 playlist_end

@@ -1,0 +1,141 @@
+/* --- Load wallust colors ---*/
+@theme "~/.config/rofi/wallust/colors-rofi.rasi"
+
+/* ---- Global Configuration Fonts ---- */
+@import "~/.config/rofi/0-shared-fonts.rasi"
+
+/*****----- Global Properties -----*****/
+* {
+	background-alt: 	@color1;
+	selected: 		@color12;
+	active: 		@color11;
+	urgent: 		#8E3596;
+}
+
+/*****----- Configuration -----*****/
+configuration {
+	show-icons: true;
+	transparency: "real";
+}
+
+window {
+    width: 700;
+    orientation: horizontal;
+    location: center;
+    anchor: center;
+    transparency: "real";
+    background-color: rgba(20, 20, 20, 0.3);
+    border-color: #C79E90;
+    border: 0px;
+    border-radius: 0px;
+    spacing: 0;
+    children: [ mainbox ];
+}
+
+mainbox {
+    spacing: 0;
+    children: [ inputbar, listview ];
+    background-color: transparent;
+}
+
+inputbar {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: @foreground;
+    padding: 11px;
+    border: 3px 3px 2px 3px;
+    border-color: @color1;
+    border-radius: 0px;
+    background-color: transparent;
+}
+
+message {
+    padding: 0;
+    border-color: @color1;
+    border: 0px 1px 1px 1px;
+    background-color: transparent;
+}
+
+entry, prompt, case-indicator {
+    text-font: inherit;
+    text-color: inherit;
+    background-color: transparent;
+}
+
+entry {
+    cursor: pointer;
+    background-color: transparent;
+}
+
+prompt {
+    text: "Search: ";
+    margin: 0px 5px 0px 0px;
+}
+
+listview {
+    layout: vertical;
+    padding: 8px;
+    lines: 10;
+    columns: 1;
+    border: 0px 3px 3px 3px;
+    border-radius: 0px;
+    border-color: @color1;
+    dynamic: false;
+    background-color: transparent;
+}
+
+element {
+    padding: 2px;
+    vertical-align: 1;
+    color:@foreground;
+    font: inherit;
+    background-color: transparent;
+}
+
+element-icon {
+    background-color: transparent;
+   }
+
+element-text {
+    background-color: transparent;
+    text-color: inherit;
+}
+
+element selected.normal {
+    color: #000000;
+    background-color: @color4;
+}
+
+element normal active {
+    background-color: @color5;
+    color: #000000;
+}
+
+element normal urgent {
+    background-color: @color1;
+}
+
+element selected active {
+    background-color: @color4;
+    text-color: @foreground;
+}
+
+button {
+    padding: 6px;
+    color: @color1;
+    horizontal-align: 0.5;
+    border: 2px 0px 2px 2px;
+    border-radius: 0px;
+    border-color: @color1;
+    background-color: transparent;
+}
+
+button selected normal {
+    border: 2px 0px 2px 2px;
+    border-color: @color1;
+    background-color: transparent;
+}
+
+scrollbar {
+    enabled: false;
+}
+

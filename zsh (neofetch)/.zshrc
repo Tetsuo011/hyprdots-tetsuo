@@ -1,9 +1,8 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
-<<<<<<< HEAD
-=======
+
 export PATH="$HOME/.local/bin:$PATH"
->>>>>>> 675d4511b (feat: Cambios en menús neovim y swaync)
+
 
 export ZSH="$HOME/.oh-my-zsh"
 

@@ -16,30 +16,28 @@
 "spacing": 3,
 "fixed-center": true,
 "ipc": true,
-"margin-top": 1,
+"margin-top": 3,
 "margin-left": 8,
 "margin-right": 8,
 
 "modules-left": [
-	"cpu", 
-	"temperature", 
-	"memory",
-	"disk", 
+	"custom/arch", 
+	"hyprland/window", 
+	"hyprland/submap", 
 	],
   
 "modules-center": [
-	"idle_inhibitor",
-	"clock",
-	"custom/cava_mviz",
+	"hyprland/workspaces#pacman",
+	"custom/cava_mviz"
 	], 
 
 "modules-right": [
-	"custom/weather",	  
+	"group/connections",	  
+	"cpu", 
+	"memory",
+	"power-profiles-daemon",
+	"group/audio",
 	"battery", 
-	"backlight",
-	"group/connections",
-	"custom/cycle_wall",
-	"custom/lock", 
 	],
 },
 
@@ -65,20 +63,17 @@
 //"gtk-layer-shell": true,
 //"margin-bottom": 0,
 
-"modules-left": [
-	"custom/arch",  
-	"wlr/taskbar",
+"modules-left": [  
+	"mpris",       
 	 ],
 
 "modules-center": [
-	"hyprland/workspaces#pacman", 
+	"group/notify",
+	"clock", 
 	],
 
 "modules-right": [
-	"hyprland/window",
 	"tray",
-	"group/notify",
-	"mpris",
 	"pulseaudio",
 	//"wireplumber", 
 	"pulseaudio#microphone",	  

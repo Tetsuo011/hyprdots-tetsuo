@@ -1,43 +1,72 @@
-/* Animations Menu */
-
 @import "~/.config/rofi/config.rasi" 
 
-/* ---- Mainbox ---- */
-mainbox {
-  children:
-    [ "inputbar", "message", "listview"];
+configuration {
+  show-icons: true;
+  transparency: "real";
 }
 
 /* ---- Window ---- */
 window {
-  width: inherit;
-  height: inherit;
+  width: 70%;
+  padding: 30px;
+  transparency: "real";
+  background-color: rgba(20, 20, 20, 0.3);
+  border: 0px;
+  border-radius: 0px;
+}
+
+/* ---- Mainbox ---- */
+mainbox {
+  children: [ "inputbar", "listview" ]; 
+  spacing: 20px;
+  background-color: transparent;
 }
 
 /* ---- Entry ---- */ 
 entry {
-  width: 43%;
-  placeholder: " ✨ Search / Choose which Animations to load";
+  width: 50%;
+  placeholder: " Choose which Animations to load ";
+  text-color: #ffffff;
+  horizontal-align: 0.5;
+  expand: true;
+}
+
+/* ---- Inputbar ---- */
+inputbar {
+  background-color: rgba(0, 0, 0, 0.2);
+  text-color: #ffffff;
+  padding: 10px;
+  border-radius: 0px;
+  margin: 10px 0px;
 }
 
 /* ---- Listview ---- */
 listview {
-  columns: 2;
-  lines: 7;
+  columns: 1;
+  lines: 4;
   fixed-height: false;
   margin: 10px;
-  scrollbar: true;
+  scrollbar: false;
   spacing: 6px;
   cycle: true;
+  background-color: transparent;
 }
 
 /* ---- Elements ---- */
+element {
+  orientation: horizontal;
+  padding: 10px;
+  background-color: transparent;
+}
+
 element-icon {
   size: 0%;
 }
+
 element-text {
   horizontal-align: 0.0;
   vertical-align: 0.0;
-  margin: 0px;
-  padding: 0px;
+  text-color: #ffffff;
+  font: "JetBrainsMono Nerd Font 10";
 }
+

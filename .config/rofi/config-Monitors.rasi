@@ -5,7 +5,7 @@
 /* ---- Mainbox ---- */
 mainbox {
   children:
-    [ "inputbar", "message", "listview"];
+    [ "inputbar",  "listview"];
 }
 
 /* ---- Window ---- */
@@ -27,7 +27,7 @@ listview {
   lines: 3;
   fixed-height: false;
   margin: 10px;
-  scrollbar: true;
+  scrollbar: false;
   cycle: true;
 }
 
